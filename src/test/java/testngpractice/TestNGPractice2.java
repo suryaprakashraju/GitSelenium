@@ -12,7 +12,7 @@ public class TestNGPractice2 {
   @Test
   public void f() {
 	  driver.get("https://www.google.com");
-	  driver.findElement(By.name("q")).sendKeys("chandrababunaidu");
+	  driver.findElement(By.name("q")).sendKeys("PawanKalyan");
 	  driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 	  
   }
